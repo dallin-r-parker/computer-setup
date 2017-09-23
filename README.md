@@ -24,6 +24,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [n](https://github.com/tj/n) - Node version management, easily switch between node versions
 * [now](https://www.npmjs.com/package/now) - deploy application with "now" command
 * [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) - cli for working with heroku
+* [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
 
 ### FAV ZSH PLUGINS
 * [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git) - git aliases & functions
