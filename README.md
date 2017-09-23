@@ -26,6 +26,10 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) - cli for working with heroku
 
 ### FAV ZSH PLUGINS
+* [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git) - git aliases & functions
+* [z](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#z) - jump to folder without having to write full filepath
+* [osx](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#osx) - utility commands for OSX
+* [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search) - make web-searches from command line
 
 ### ALFRED WORKFLOW'S
 * [CDN](http://www.packal.org/) - workflow to grab CDN's
