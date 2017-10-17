@@ -1,8 +1,9 @@
 # Computer Setup
 This is a repo of the configurations I have on my computer for productivity and development
 
-### APPS
+### APPS / CLI APPS
 * [Webstorm](https://www.jetbrains.com/webstorm/) / [Atom](https://atom.io/) - IDE and Code Editor
+* [YouTube CLI Player](https://github.com/mps-youtube/mps-youtube)
 * [iStat](https://bjango.com/mac/istatmenus/) - Computer monitoring 
 * [Alfred](https://www.alfredapp.com/) - App launching & custom workflow's
 * [Postman](https://www.getpostman.com/) - API development
@@ -63,4 +64,6 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Oh My Zsh](http://ohmyz.sh/)
 * [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 * [Cobalt Theme](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos
+* [Powerlevel9k Theme](https://github.com/bhilburn/powerlevel9k)
+
  
