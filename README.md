@@ -65,5 +65,6 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 * [Cobalt Theme](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos
 * [Powerlevel9k Theme](https://github.com/bhilburn/powerlevel9k)
+* [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 
  
