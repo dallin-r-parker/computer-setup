@@ -32,6 +32,9 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [z](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#z) - jump to folder without having to write full filepath
 * [osx](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#osx) - utility commands for OSX
 * [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search) - make web-searches from command line
+* [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ### ALFRED WORKFLOW'S
 * [CDN](http://www.packal.org/) - workflow to grab CDN's
@@ -62,9 +65,6 @@ This is a repo of the configurations I have on my computer for productivity and 
 ### RESOURCES
 * [iTerm2](https://www.iterm2.com/)
 * [Oh My Zsh](http://ohmyz.sh/)
-* [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
-* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 * [Cobalt Theme](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos
 * [Powerlevel9k Theme](https://github.com/bhilburn/powerlevel9k)
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
