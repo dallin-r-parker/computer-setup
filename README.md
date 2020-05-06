@@ -19,7 +19,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 ### NODE PACKAGES
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
 * [now](https://www.npmjs.com/package/now) - deploy application with "now" command
-* [n](https://github.com/tj/n) - Node version management, easily switch between node versions
+* [nvm](https://github.com/nvm-sh/nvm) - Node version management, easily switch between node versions
 * [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) - cli for working with heroku
 * [preact-cli](https://github.com/developit/preact-cli) - boilerplate cli for preact application
 * [nodemon](https://github.com/remy/nodemon) - watches node server and restarts automatically on changes
@@ -73,6 +73,8 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Cobalt Theme](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
+* [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
+* [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 
 ## OPTIMIZE WEBSTORM PERFORMANCE
 Here is my recipe how to speed up your lovely WebStorm:
