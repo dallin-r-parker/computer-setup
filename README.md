@@ -15,6 +15,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Webstorm](https://www.jetbrains.com/webstorm/) / [Atom](https://atom.io/) - IDE and Code Editor
 * [Adobe Experience](http://www.adobe.com/products/experience-design.html) - Design/Prototype/Wire frame projects
 * [Discord](https://discordapp.com/) / [Slack](https://slack.com/) - Messaging application with dev-help channels
+* [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 
 ### NODE PACKAGES
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
@@ -74,7 +75,6 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
 * [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
-* [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 
 ## OPTIMIZE WEBSTORM PERFORMANCE
 Here is my recipe how to speed up your lovely WebStorm:
