@@ -16,6 +16,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Adobe Experience](http://www.adobe.com/products/experience-design.html) - Design/Prototype/Wire frame projects
 * [Discord](https://discordapp.com/) / [Slack](https://slack.com/) - Messaging application with dev-help channels
 * [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
+* [Bat (replaces cat)](https://github.com/sharkdp/bat)
 
 ### NODE PACKAGES
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
@@ -70,8 +71,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 ### RESOURCES
 * [Oh My Zsh](http://ohmyz.sh/)
 * [iTerm2](https://www.iterm2.com/)
-* [Powerlevel9k Theme](https://github.com/bhilburn/powerlevel9k)
-* [Cobalt Theme](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos
+* [FZF tutorial](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
 * [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
