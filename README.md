@@ -75,6 +75,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
 * [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
+* [Mac-setup](https://sourabhbajaj.com/mac-setup/) 
 
 ## OPTIMIZE WEBSTORM PERFORMANCE
 Here is my recipe how to speed up your lovely WebStorm:
