@@ -67,6 +67,8 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [PopcornTime](https://popcorn-time.to/) - Stream Torrents    
 * [Fantastical](https://flexibits.com/fantastical) - Calendar App
 * [VLC](https://www.videolan.org/vlc/index.html) - Cross platform multimedia player
+* arp-scan - sends ARP packets to hosts on the local network and displays device details
+	example command: `arp-scan -l`
 
 ### RESOURCES
 * [Oh My Zsh](http://ohmyz.sh/)
