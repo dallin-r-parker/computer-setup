@@ -43,6 +43,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search) - make web-searches from command line
 
 ### ALFRED WORKFLOW'S
+* [LastPass](https://www.alfredforum.com/topic/15646-lastpass-accelerator/) - interacting with lastpass CLI
 * [CDN](http://www.packal.org/) - workflow to grab CDN's
 * [Wi-Fi](http://www.packal.org/) - turn Wi-Fi On/Off through alfred
 * [Dash](http://www.packal.org/) - workflow for searching Dash API references
