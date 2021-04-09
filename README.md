@@ -17,6 +17,7 @@ This is a repo of the configurations I have on my computer for productivity and 
 * [Discord](https://discordapp.com/) / [Slack](https://slack.com/) - Messaging application with dev-help channels
 * [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 * [Bat (replaces cat)](https://github.com/sharkdp/bat)
+* [PIA - private internet access CLI](https://www.privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface)
 
 ### NODE PACKAGES
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
