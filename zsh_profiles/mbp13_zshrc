@@ -1,0 +1,110 @@
+export ZSH="/Users/adair/.oh-my-zsh"
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GO/PATH:$GOPATH/bin
+export NODE_SAMSUNG_TV_IP=192.168.0.106
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#man 2 select
+#export EDITOR=vim
+# export PATH=$PATH:/Users/adair/tizen-studio/tools/ide/bin:$HOME/tizen-studio/tools
+ZSH_THEME="agnoster"
+COMPLETION_WAITING_DOTS="true"
+plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
+#--------------------------------------------------------------------------------
+# GIT ALIAS'S
+#--------------------------------------------------------------------------------
+# alias vim="vim $(ff)"
+alias pia='piactl'
+alias rm='trash'
+alias ff='fzf'
+alias cat='bat'
+alias top='htop -d 8'
+alias add='git add .'
+alias stash='git stash'
+alias pop='git stash pop'
+alias status='git status'
+alias branch='git branch'
+alias remote='git remote -v'
+alias master='git checkout master && git pull'
+alias amend='git commit --amend -a'
+alias count='git rev-list --count HEAD ^master'
+alias zapp='cd ~/code/work/mlb-bbd-app && git checkout master && git pull && git checkout develop && git pull'
+alias develop='git checkout develop && git pull'
+alias jenkins='open https://jenkins.mobileqa.mlbinfra.com/job/Web-Based-Devices/job/mlb-bbd-app/'
+alias tvdevdocs='open https://baseball.atlassian.net/wiki/spaces/JTS/pages/4696258/Local+TV+Development+Tizen+X1'
+alias sprint='open https://baseball.atlassian.net/secure/RapidBoard.jspa?rapidView=1890'
+alias myip='ipconfig getifaddr en0'
+alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias copy="pbcopy"
+alias paste="pbpaste"
+alias l="ls -lh"
+alias restart="sudo shutdown -r now"
+#--------------------------------------------------------------------------------
+# Custom Functions
+#--------------------------------------------------------------------------------
+function clone() {
+  # just pass the name of the repo, this is for your personal github clones
+  git clone git@dallin-r-parker.github.com:dallin-r-parker/$1.git
+}
+function myremote() {
+  git remote add origin git@dallin-r-parker.github.com:dallin-r-parker/$1.git
+}
+function gc() {
+  git checkout $1
+}
+function gcb() {
+  git checkout -b $1
+}
+function commit() {
+  git commit -m $1
+}
+function gp() {
+  # TODO: add the condition of checking if there is already a remote
+  # use "git branch --show-current"
+  COMMAND="git push origin $(git_current_branch) -u"
+  eval $COMMAND
+}
+function del() {
+  git branch -D $1
+}
+# function killport() {
+#   lsof -i tcp:"$@" | awk 'NR!=1 {print $2}' | xargs kill -9
+# }
+
+# function vim() {
+#   if (($# == 0)); then
+#     vim "$(fzf)"
+#   else
+#     vim $1
+#   fi
+# }
+
+#--------------------------------------------------------------------------------
+# auto sourcing the latest
+#--------------------------------------------------------------------------------
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"                           # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion" # This loads nvm bash_completion
+
+# To install useful key bindings and fuzzy completion: need to run only once when FZF is installed
+# $(brew --prefix)/opt/fzf/install
+
+###-tns-completion-start-###
+if [ -f /Users/adair/.tnsrc ]; then
+    source /Users/adair/.tnsrc
+fi
+###-tns-completion-end-###
+
+export FZF_DEFAULT_OPTS='--extended --preview "bat --style=numbers --color=always {} | head -200"'
+export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+source $ZSH/oh-my-zsh.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/adair/.gcloud/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/adair/.gcloud/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/adair/.gcloud/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adair/.gcloud/google-cloud-sdk/completion.zsh.inc'; fi
