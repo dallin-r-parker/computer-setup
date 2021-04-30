@@ -2,6 +2,8 @@
 This is a repo of the configurations I have on my computer for productivity and development.
 I am using zsh as my shell, which has become the Mac OS default. First clone this repo and I suggest you move it to a hidden directory `mv computer-setup .computer-setup` at the root of your User. Second, simlink the desired `zshrc` from the `zsh_profiles` directory to your local `.zshrc` using the command `ln -s ~/.computer-setup/zsh_profiles/<ZSH_PROFILE> ~/.zshrc`
 
+**NOTE** double check the user used in PATHS of each zsh-profile, they will differ
+
 ### APPS / CLI APPS
 * [Postman](https://www.getpostman.com/) - API development
 * [Mindnode](https://mindnode.com/) - Mind mapping application 
