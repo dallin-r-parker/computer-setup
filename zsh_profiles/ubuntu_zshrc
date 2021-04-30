@@ -1,0 +1,57 @@
+# If you come from bash you might have to change your $PATH.
+# Addd "$HOME/emsdk:$HOME/emsdk/upstream/emscripten:$HOME/emsdk/node/12.9.1_64bit/bin:" to PATH to get WebAssembly back
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$HOME/tizen-studio/tools/ide/bin:$HOME/tizen-studio/tools:$PATH
+export GOPATH=$HOME/.go
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export ZSH="/home/boolean/.oh-my-zsh"
+ZSH_THEME="avit" # other themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+plugins=(git z zsh-autosuggestions zsh-syntax-highlighting docker docker-compose)
+alias pia='piactl'
+alias fd="fdfind"
+alias top="htop"
+alias cat="bat"
+alias ff="fzf"
+alias add='git add .'
+alias stash='git stash'
+alias pop='git stash pop'
+alias status='git status'
+alias branch='git branch'
+alias remote='git remote -v'
+alias master='git checkout master && git pull'
+alias amend='git commit --amend -a'
+alias count='git rev-list --count HEAD ^master'
+#--------------------------------------------------------------------------------
+# Custom Functions
+#--------------------------------------------------------------------------------
+function copy() {
+  xclip -selection clipboard -i $@
+}
+function clone() {
+ # just pass the name of the repo, this is for your personal github clones
+ git clone git@dallin-r-parker.github.com:dallin-r-parker/$1.git
+}
+function myremote() {
+ git remote add origin git@github.com:dallin-r-parker/$1.git
+}
+function gc() {
+ git checkout $1
+}
+function gcb() {
+  git checkout -b $1
+}
+function commit() {
+  git commit -m $1
+}
+function gp() {
+ git push -u origin $(git_current_branch)
+}
+function del() {
+  git branch -D $1
+}
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export FZF_DEFAULT_OPTS='--extended --preview "bat --style=numbers --color=always {} | head -200"'
+export FZF_DEFAULT_COMMAND="fdfind --type f"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+source $ZSH/oh-my-zsh.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
