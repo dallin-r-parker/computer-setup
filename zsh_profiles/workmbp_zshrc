@@ -1,0 +1,113 @@
+export ZSH="/Users/dallin.parker/.oh-my-zsh"
+export GOPATH=/Users/dallin.parker/go
+export PATH=$PATH:/Users/dallin.parker/tizen-studio/tools/ide/bin:$HOME/tizen-studio/tools:$GOPATH/bin/jira
+export GOPRIVATE=github.mlbam.net/*
+export GOPROXY=https://goproxy.us-central1.mobiletools-gcp-npd.mlbinfra.net,direct
+export GONOSUMDB=github.mlbam.net
+export GO111MODULE=on
+export EDITOR=vim
+ZSH_THEME="awesomepanda"
+COMPLETION_WAITING_DOTS="true"
+plugins=(git z zsh-autosuggestions zsh-syntax-highlighting docker)
+#--------------------------------------------------------------------------------
+# GIT ALIAS'S
+#--------------------------------------------------------------------------------
+alias rm='trash'
+alias dcbounce='docker compose down && docker compose up'
+alias ff='fzf'
+alias cat='bat'
+alias top='htop'
+alias add='git add .'
+alias stash='git stash'
+alias pop='git stash pop'
+alias status='git status'
+alias branch='git branch'
+alias myip='ipconfig getifaddr en0'
+alias remote='git remote -v'
+alias master='git checkout master && git pull'
+alias dev='git checkout develop && git pull'
+alias amend='git commit --amend -a'
+alias count='git rev-list --count HEAD ^master'
+alias zapp='cd /Users/dallin.parker/code/work/samsung/mlb-bbd-app && git checkout master && git pull && git checkout develop && git pull && code . && sprint'
+alias develop='git checkout develop && git pull'
+alias jenkins='open https://jenkins.mobileqa.mlbinfra.com/job/Web-Based-Devices/job/mlb-bbd-app/'
+alias tvdevdocs='open https://baseball.atlassian.net/wiki/spaces/JTS/pages/4696258/Local+TV+Development+Tizen+X1'
+alias sprint="open https://baseball.atlassian.net/secure/RapidBoard.jspa\?rapidView\=1890\&projectKey\=WBD"
+alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias copy="pbcopy"
+alias paste="pbpaste"
+alias l="ls -lh"
+#--------------------------------------------------------------------------------
+# Work Related Functions
+#--------------------------------------------------------------------------------
+function char() {
+  # parse out the number of characters in a string
+  sed -e 's/^\(.\{12\}\).*/\1/'
+  #revist this to make the "12" count dynamic
+}
+function dterm() {
+  # enter a bash shell for running docker container
+  docker exec -it $1 /bin/bash
+}
+function wcb() {
+  BRANCH="MAST-$1"
+  if [ "$2" = '-f' ]; then
+    BRANCH="feature/$BRANCH"
+    if [ "$2" = '-b' ]; then
+      BRANCH="bug/$BRANCH"
+    fi
+  else
+    BRANCH="dev/$BRANCH"
+  fi
+  git checkout -b $BRANCH
+}
+function wco() {
+  git checkout WBD-$1
+}
+function wdel() {
+  git branch -D WBD-$1
+}
+#--------------------------------------------------------------------------------
+# Custom Functions
+#--------------------------------------------------------------------------------
+function clone() {
+  # just pass the name of the repo, this is for your personal github clones
+  git clone git@dallin-r-parker.github.com:dallin-r-parker/$1.git
+}
+function myremote() {
+  git remote add origin git@dallin-r-parker.github.com:dallin-r-parker/$1.git
+}
+function gc() {
+  git checkout $1
+}
+function gcb() {
+  git checkout -b $1
+}
+function commit() {
+  git commit -m $1
+}
+function gp() {
+  git push origin $(git_current_branch) -u
+}
+function del() {
+  git branch -D $1
+}
+function killport() {
+  lsof -i tcp:"$@" | awk 'NR!=1 {print $2}' | xargs kill -9
+}
+#--------------------------------------------------------------------------------
+# auto sourcing the latest
+#--------------------------------------------------------------------------------
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"                           # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion" # This loads nvm bash_completion
+source $ZSH/oh-my-zsh.sh
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# # The next line updates PATH for the Google Cloud SDK.
+# if [ -f '/Users/dallin.parker/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/dallin.parker/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+# # The next line enables shell command completion for gcloud.
+# if [ -f '/Users/dallin.parker/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/dallin.parker/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+eval "$(gh completion -s zsh)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
