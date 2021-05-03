@@ -21,6 +21,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 * [Bat (replaces cat)](https://github.com/sharkdp/bat)
 * [PIA - private internet access CLI](https://www.privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface)
+* [Little Snitch - network monitoring](https://www.obdev.at/index.html)
 
 ### NODE PACKAGES
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
