@@ -1,7 +1,6 @@
 export ZSH="/Users/adair/.oh-my-zsh"
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GO/PATH:$GOPATH/bin
-export NODE_SAMSUNG_TV_IP=192.168.0.106
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #man 2 select
 #export EDITOR=vim
