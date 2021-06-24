@@ -1,10 +1,12 @@
 # Computer Setup
+
 This is a repo of the configurations I have on my computer for productivity and development.
 I am using zsh as my shell, which has become the Mac OS default. First clone this repo and I suggest you move it to a hidden directory `mv computer-setup .computer-setup` at the root of your User. Second, simlink the desired `zshrc` from the `zsh_profiles` directory to your local `.zshrc` using the command `ln -s ~/.computer-setup/zsh_profiles/<ZSH_PROFILE> ~/.zshrc`
 
 **NOTE** double check the user used in PATHS of each zsh-profile, they will differ
 
 ### APPS / CLI APPS
+
 * [Postman](https://www.getpostman.com/) - API development
 * [Mindnode](https://mindnode.com/) - Mind mapping application 
 * [YouTube CLI Player](https://github.com/mps-youtube/mps-youtube)
@@ -22,8 +24,9 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Bat (replaces cat)](https://github.com/sharkdp/bat)
 * [PIA - private internet access CLI](https://www.privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface)
 * [Little Snitch - network monitoring](https://www.obdev.at/index.html)
-
+  
 ### NODE PACKAGES
+
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
 * [now](https://www.npmjs.com/package/now) - deploy application with "now" command
 * [nvm](https://github.com/nvm-sh/nvm) - Node version management, easily switch between node versions
@@ -35,10 +38,12 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [trash-cli](https://www.npmjs.com/package/trash-cli) - use instead of "rm || rm -r" will move thing to trash instead of permanently deleting
 
 ### BREW PACKAGES
+
 * [NVM](https://gist.github.com/nijicha/e5615548181676873118df79953cb709) - Node Version Manager
 * [Bat](https://github.com/sharkdp/bat) - Alternative to "Cat", supports syntax highlighting for a large number of programming and markup languages.
 
 ### FAV ZSH PLUGINS
+
 * [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git) - git aliases & functions
@@ -48,6 +53,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search) - make web-searches from command line
 
 ### ALFRED WORKFLOW'S
+
 * [LastPass](https://www.alfredforum.com/topic/15646-lastpass-accelerator/) - interacting with lastpass CLI [github repo](https://github.com/lastpass/lastpass-cli)
 * [CDN](http://www.packal.org/) - workflow to grab CDN's
 * [Wi-Fi](http://www.packal.org/) - turn Wi-Fi On/Off through alfred
@@ -58,6 +64,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Password Generator](http://www.packal.org/) - workflow for easily generating a complicated password
 
 ### DISCORD / SLACK CHANNELS
+
 * Node.js (node-js.slack.com) - Slack Channel
 * DevMountain (devmtn.slack.com) - Slack Channel
 * Postgres (postgresteam.slack.com) - Slack Channel 
@@ -65,10 +72,12 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * Frontend Developers (frontenddevelopers.slack.com) - Slack Channel
 
 ### MAINTENANCE
+
 * [Malwarebytes](https://www.malwarebytes.com/) - Free virus & malware computer scanner
 * [CleanMyMac 3](http://bit.ly/2xnlnEf) - Runs maintence scripts & uninstall / clean junk files 
 
 ### OTHER
+
 * [Vuze](http://www.vuze.com/) - Torrenting Application
 * [PopcornTime](https://popcorn-time.to/) - Stream Torrents    
 * [Fantastical](https://flexibits.com/fantastical) - Calendar App
@@ -78,6 +87,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 	example command: `arp-scan -l`
 
 ### RESOURCES
+
 * [Oh My Zsh](http://ohmyz.sh/)
 * [iTerm2](https://www.iterm2.com/)
 * [FZF tutorial](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
@@ -87,6 +97,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Mac-setup](https://sourabhbajaj.com/mac-setup/) 
 
 ## OPTIMIZE WEBSTORM PERFORMANCE
+
 Here is my recipe how to speed up your lovely WebStorm:
 
 Go to Preferences and do next:
@@ -123,5 +134,3 @@ Open terminal, mc or what you prefer and edit vmoptions and increase usage memor
 (Windows: C:\Program Files\JetBrains\WebStorm X.X.X\bin\WebStorm.exe.vmoptions)
 
 So the main idea is next: disable all in Preferences what you really don't use and increase memory for IDE.
-
- 
