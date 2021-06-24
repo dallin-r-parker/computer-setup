@@ -5,7 +5,9 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 
 **NOTE** double check the user used in PATHS of each zsh-profile, they will differ
 
-### APPS / CLI APPS
+---
+
+## APPS / CLI APPS
 
 * [Postman](https://www.getpostman.com/) - API development
 * [Mindnode](https://mindnode.com/) - Mind mapping application 
@@ -25,7 +27,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [PIA - private internet access CLI](https://www.privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface)
 * [Little Snitch - network monitoring](https://www.obdev.at/index.html)
   
-### NODE PACKAGES
+## NODE PACKAGES
 
 * [itunes-cli](https://github.com/mischah/itunes-remote) - control itunes from cli
 * [now](https://www.npmjs.com/package/now) - deploy application with "now" command
@@ -37,12 +39,12 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [create-react-app](https://github.com/facebookincubator/create-react-app) - boilerplate for react application
 * [trash-cli](https://www.npmjs.com/package/trash-cli) - use instead of "rm || rm -r" will move thing to trash instead of permanently deleting
 
-### BREW PACKAGES
+## BREW PACKAGES
 
 * [NVM](https://gist.github.com/nijicha/e5615548181676873118df79953cb709) - Node Version Manager
 * [Bat](https://github.com/sharkdp/bat) - Alternative to "Cat", supports syntax highlighting for a large number of programming and markup languages.
 
-### FAV ZSH PLUGINS
+## FAV ZSH PLUGINS
 
 * [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -52,7 +54,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [z](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#z) - jump to folder without having to write full filepath
 * [web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search) - make web-searches from command line
 
-### ALFRED WORKFLOW'S
+## ALFRED WORKFLOW'S
 
 * [LastPass](https://www.alfredforum.com/topic/15646-lastpass-accelerator/) - interacting with lastpass CLI [github repo](https://github.com/lastpass/lastpass-cli)
 * [CDN](http://www.packal.org/) - workflow to grab CDN's
@@ -63,7 +65,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [iMessages](http://www.packal.org/) - workflow to initiate a text message through iMessage
 * [Password Generator](http://www.packal.org/) - workflow for easily generating a complicated password
 
-### DISCORD / SLACK CHANNELS
+## DISCORD / SLACK CHANNELS
 
 * Node.js (node-js.slack.com) - Slack Channel
 * DevMountain (devmtn.slack.com) - Slack Channel
@@ -71,22 +73,24 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * reactiflux - Discord server for react development & questions
 * Frontend Developers (frontenddevelopers.slack.com) - Slack Channel
 
-### MAINTENANCE
+## MAINTENANCE
 
 * [Malwarebytes](https://www.malwarebytes.com/) - Free virus & malware computer scanner
 * [CleanMyMac 3](http://bit.ly/2xnlnEf) - Runs maintence scripts & uninstall / clean junk files 
 
-### OTHER
+## OTHER
 
+* [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
+* [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) - font book for many apps
 * [Vuze](http://www.vuze.com/) - Torrenting Application
-* [PopcornTime](https://popcorn-time.to/) - Stream Torrents    
+* [PopcornTime](https://popcorn-time.to/) - Stream Torrents
 * [Fantastical](https://flexibits.com/fantastical) - Calendar App
 * [VLC](https://www.videolan.org/vlc/index.html) - Cross platform multimedia player
 * [HTTPie](https://httpie.org/)
 * arp-scan - sends ARP packets to hosts on the local network and displays device details
 	example command: `arp-scan -l`
 
-### RESOURCES
+## RESOURCES
 
 * [Oh My Zsh](http://ohmyz.sh/)
 * [iTerm2](https://www.iterm2.com/)
@@ -106,8 +110,8 @@ Appearance & Behaviour > System Settings > Usage Statistics: Uncheck Allow sendi
 Editor > Live Templates: disable all, leave only what you are really use
 Editor > Emmet: disable all emmets
 Editor > Intentions: I leave only: CSS, Declaration, JavaScript and Language Injection
-Plugins: leave only next (* - can be also disabled in case you don't need them):
-CoffeeScript *
+Plugins: leave only next (*- can be also disabled in case you don't need them):
+CoffeeScript*
 CSS Suport
 CVS Integration
 Git Integration
@@ -116,7 +120,7 @@ IntelliLang
 JavaScript Debugger *
 JavaScript Intention Power Pack
 JavaScript Support
-NodeJS *
+NodeJS*
 Perforce Integration
 SASS suport *
 Project > Directories: Exclude all what you don't use
@@ -125,11 +129,11 @@ Languages & Frameworks > Compass: disable it
 Tools > WebBrowsers: leave only Chrome
 Open terminal, mc or what you prefer and edit vmoptions and increase usage memory pwd: "/Applications/WebStorm.app/Contents/bin/idea.vmoptions"
 
--Xms1024m 
--Xmx1536m 
--XX:MaxPermSize=1024m 
--XX:ReservedCodeCacheSize=512m 
--XX:+UseCompressedOops 
+-Xms1024m
+-Xmx1536m
+-XX:MaxPermSize=1024m
+-XX:ReservedCodeCacheSize=512m
+-XX:+UseCompressedOops
 
 (Windows: C:\Program Files\JetBrains\WebStorm X.X.X\bin\WebStorm.exe.vmoptions)
 
