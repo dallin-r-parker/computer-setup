@@ -38,7 +38,7 @@ alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d
 alias copy="pbcopy"
 alias paste="pbpaste"
 #alias l="ls -lh"
-alias ls="exa --icons"
+alias l="exa -l --icons -a"
 alias restart="sudo shutdown -r now"
 #--------------------------------------------------------------------------------
 # Custom Functions
