@@ -12,6 +12,7 @@ plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 # GIT ALIAS'S
 #--------------------------------------------------------------------------------
 # alias vim="vim $(ff)"
+alias ping='gping'
 alias pia='piactl'
 alias rm='trash'
 alias ff='fzf'
