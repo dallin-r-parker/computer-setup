@@ -81,6 +81,8 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 ## OTHER
 
 * [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
+  * [Delta](https://github.com/dandavison/delta) - viewer for `git diff` output
+  * [gtop](https://github.com/aksakalli/gtop) - systems monitoring dashboard
 * [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) - font book for many apps
 * [Vuze](http://www.vuze.com/) - Torrenting Application
 * [PopcornTime](https://popcorn-time.to/) - Stream Torrents

@@ -16,7 +16,7 @@ alias pia='piactl'
 alias rm='trash'
 alias ff='fzf'
 alias cat='bat'
-alias top='htop -d 8'
+alias top='gtop'
 alias add='git add .'
 alias stash='git stash'
 alias pop='git stash pop'
@@ -35,7 +35,8 @@ alias myip='ipconfig getifaddr en0'
 alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias copy="pbcopy"
 alias paste="pbpaste"
-alias l="ls -lh"
+#alias l="ls -lh"
+alias ls="exa --icons"
 alias restart="sudo shutdown -r now"
 #--------------------------------------------------------------------------------
 # Custom Functions
