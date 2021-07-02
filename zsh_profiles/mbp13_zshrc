@@ -1,11 +1,11 @@
 export ZSH="/Users/adair/.oh-my-zsh"
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GO/PATH:$GOPATH/bin
+#export GOPATH=$HOME/.go
+#export PATH=$PATH:$GO/PATH:$GOPATH/bin
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #man 2 select
 #export EDITOR=vim
 # export PATH=$PATH:/Users/adair/tizen-studio/tools/ide/bin:$HOME/tizen-studio/tools
-ZSH_THEME="agnoster"
+ZSH_THEME="spaceship"
 COMPLETION_WAITING_DOTS="true"
 plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 #--------------------------------------------------------------------------------
@@ -37,8 +37,6 @@ alias myip='ipconfig getifaddr en0'
 alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias copy="pbcopy"
 alias paste="pbpaste"
-#alias l="ls -lh"
-alias l="exa -l --icons -a"
 alias restart="sudo shutdown -r now"
 #--------------------------------------------------------------------------------
 # Custom Functions
@@ -102,6 +100,8 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 source $ZSH/oh-my-zsh.sh
 
+alias l='exa -l --icons -a'
+alias ls='exa --icons'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
@@ -110,3 +110,7 @@ if [ -f '/Users/adair/.gcloud/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/a
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/adair/.gcloud/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adair/.gcloud/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Set Spaceship ZSH as a prompt
+#autoload -U promptinit; promptinit
+#prompt spaceship
