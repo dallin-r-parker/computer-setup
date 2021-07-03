@@ -1,5 +1,7 @@
 export ZSH="/Users/adair/.oh-my-zsh"
-#export GOPATH=$HOME/.go
+# /Users/adair/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 #export PATH=$PATH:$GO/PATH:$GOPATH/bin
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 #man 2 select
@@ -12,7 +14,7 @@ plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 # GIT ALIAS'S
 #--------------------------------------------------------------------------------
 # alias vim="vim $(ff)"
-alias tree='broot'
+alias tree='broot -gh'
 alias ping='gping'
 alias pia='piactl'
 alias rm='trash'
