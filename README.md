@@ -7,6 +7,10 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 
 ---
 
+## TERMINAL THEMES
+
+* [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
 ## APPS / CLI APPS
 
 * [Postman](https://www.getpostman.com/) - API development

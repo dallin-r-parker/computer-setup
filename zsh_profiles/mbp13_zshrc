@@ -6,21 +6,18 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export ZSH="/Users/adair/.oh-my-zsh"
-# /Users/adair/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-#export PATH=$PATH:$GO/PATH:$GOPATH/bin
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-#man 2 select
-#export EDITOR=vim
-# export PATH=$PATH:/Users/adair/tizen-studio/tools/ide/bin:$HOME/tizen-studio/tools
 ZSH_THEME="powerlevel10k"
 COMPLETION_WAITING_DOTS="true"
 plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
+#export EDITOR=vim
+
 #--------------------------------------------------------------------------------
 # GIT ALIAS'S
 #--------------------------------------------------------------------------------
-# alias vim="vim $(ff)"
+
 alias tree='broot -gh'
 alias ping='gping'
 alias pia='piactl'
