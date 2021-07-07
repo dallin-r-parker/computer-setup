@@ -108,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias l='exa -l --icons -a'
 alias ls='exa --icons'
+alias lf='l | ff'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
