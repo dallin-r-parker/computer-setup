@@ -48,6 +48,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [gojq](https://github.com/itchyny/gojq) - Pure Go implementation of [jq](https://github.com/stedolan/jq)
 * [NVM](https://gist.github.com/nijicha/e5615548181676873118df79953cb709) - Node Version Manager
 * [Bat](https://github.com/sharkdp/bat) - Alternative to "Cat", supports syntax highlighting for a large number of programming and markup languages.
+* [gcsfuse](https://github.com/GoogleCloudPlatform/gcsfuse) - a user-space file system for interacting with GCP Storage buckets
 
 ## FAV ZSH PLUGINS
 
