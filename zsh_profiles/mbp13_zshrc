@@ -18,6 +18,7 @@ plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 # GIT ALIAS'S
 #--------------------------------------------------------------------------------
 
+alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
 alias tree='broot -gh'
 alias ping='gping'
 alias pia='piactl'

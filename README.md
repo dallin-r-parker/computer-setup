@@ -86,6 +86,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 
 ## OTHER
 
+* [scp CLI](https://stackabuse.com/using-scp-to-copy-and-securely-transfer-files-and-folders) - secure file transfer between computers
 * [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
   * [Delta](https://github.com/dandavison/delta) - viewer for `git diff` output
   * [gtop](https://github.com/aksakalli/gtop) - systems monitoring dashboard
