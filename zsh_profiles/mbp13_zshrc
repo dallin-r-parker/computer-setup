@@ -18,7 +18,8 @@ plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 # GIT ALIAS'S
 #--------------------------------------------------------------------------------
 
-alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
+#alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
+alias diff="git diff"
 alias tree='broot -gh'
 alias ping='gping'
 alias pia='piactl'
@@ -33,6 +34,7 @@ alias status='git status'
 alias branch='git branch'
 alias remote='git remote -v'
 alias master='git checkout master && git pull'
+alias main='git checkout main && git pull'
 alias amend='git commit --amend -a'
 alias count='git rev-list --count HEAD ^master'
 alias zapp='cd ~/code/work/mlb-bbd-app && git checkout master && git pull && git checkout develop && git pull'
@@ -104,7 +106,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 source $ZSH/oh-my-zsh.sh
 
 alias l='exa -l --icons -a'
-alias ls='exa --icons'
+alias ls='exa -l --icons'
 alias lf='l | ff'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
