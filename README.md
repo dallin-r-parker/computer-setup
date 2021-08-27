@@ -87,18 +87,18 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 ## OTHER
 
 * [scp CLI](https://stackabuse.com/using-scp-to-copy-and-securely-transfer-files-and-folders) - secure file transfer between computers
+* [SSH Config setup](https://linuxize.com/post/using-the-ssh-config-file/) - understanding configuring your SSH useage.
 * [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
   * [Delta](https://github.com/dandavison/delta) - viewer for `git diff` output
   * [gtop](https://github.com/aksakalli/gtop) - systems monitoring dashboard
-  * [broot](https://github.com/Canop/broot) - see a tree like structure of the file directory 
+  * [broot](https://github.com/Canop/broot) - see a tree like structure of the file directory
 * [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) - font book for many apps
 * [Vuze](http://www.vuze.com/) - Torrenting Application
 * [PopcornTime](https://popcorn-time.to/) - Stream Torrents
 * [Fantastical](https://flexibits.com/fantastical) - Calendar App
 * [VLC](https://www.videolan.org/vlc/index.html) - Cross platform multimedia player
 * [HTTPie](https://httpie.org/)
-* arp-scan - sends ARP packets to hosts on the local network and displays device details
-	example command: `arp-scan -l`
+* arp-scan - sends ARP packets to hosts on the local network and displays device details example command: `arp-scan -l`
 
 ## RESOURCES
 
