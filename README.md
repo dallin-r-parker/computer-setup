@@ -106,7 +106,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [iTerm2](https://www.iterm2.com/)
 * [FZF tutorial](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
 * [Setting Up VIM](http://marcgg.com/blog/2016/03/01/vimrc-example/)
-* [Vim-as-an-ide](https://github.com/jez/vim-as-an-ide)
+* [Vim-as-an-ide](https://github.com/jez/vim-as-an-ide) - [vim ide article](https://blog.jez.io/vim-as-an-ide/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
 * [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
 * [Mac-setup](https://sourabhbajaj.com/mac-setup/) 
