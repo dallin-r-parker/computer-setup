@@ -11,7 +11,7 @@ export PATH=$PATH:$GOPATH/bin
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 ZSH_THEME="powerlevel10k"
 COMPLETION_WAITING_DOTS="true"
-plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
+plugins=(z fzf-tab zsh-autosuggestions zsh-syntax-highlighting docker)
 #export EDITOR=vim
 
 #--------------------------------------------------------------------------------
@@ -19,6 +19,7 @@ plugins=(z zsh-autosuggestions zsh-syntax-highlighting docker)
 #--------------------------------------------------------------------------------
 
 #alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
+alias vrc="vim ~/.zshrc"
 alias diff="git diff"
 alias tree='broot -gh'
 alias ping='gping'
