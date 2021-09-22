@@ -53,6 +53,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 ## FAV ZSH PLUGINS
 
 * [zsh-plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+* [fzf-tab](https://github.com/aloxaf/fzf-tab)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git) - git aliases & functions
 * [osx](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#osx) - utility commands for OSX
