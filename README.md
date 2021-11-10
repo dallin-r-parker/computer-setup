@@ -51,6 +51,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [gcsfuse](https://github.com/GoogleCloudPlatform/gcsfuse) - a user-space file system for interacting with GCP Storage buckets. [Installation Guide](https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md#os-x)
 * [aircrack-ng](https://www.aircrack-ng.org/) - Aircrack-ng is a complete suite of tools to assess WiFi network security
 * [john](https://www.openwall.com/john/) - john the ripper password cracker
+* [hashcat](https://hashcat.net/hashcat/) - hashcat is the world's fastest password recovery tool
 
 ## FAV ZSH PLUGINS
 
