@@ -91,6 +91,8 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 ## OTHER
 
 * [scp CLI](https://stackabuse.com/using-scp-to-copy-and-securely-transfer-files-and-folders) - secure file transfer between computers
+* [Github CLI](https://cli.github.com/manual/installation) - CLI for working with github
+  * [gh-prs](https://github.com/dlvhdr/gh-prs) - github cli extension for visualizing open PRs
 * [SSH Config setup](https://linuxize.com/post/using-the-ssh-config-file/) - understanding configuring your SSH useage.
 * [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
   * [Delta](https://github.com/dandavison/delta) - viewer for `git diff` output
