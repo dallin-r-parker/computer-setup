@@ -93,6 +93,8 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [scp CLI](https://stackabuse.com/using-scp-to-copy-and-securely-transfer-files-and-folders) - secure file transfer between computers
 * [Github CLI](https://cli.github.com/manual/installation) - CLI for working with github
   * [gh-prs](https://github.com/dlvhdr/gh-prs) - github cli extension for visualizing open PRs
+  * [gh-notify](https://github.com/meiji163/gh-notify) - github cli extension for getting notifications
+  * [gh-graph](gh extension install kawarimidoll/gh-graph) - github cli extension to see contribution graph
 * [SSH Config setup](https://linuxize.com/post/using-the-ssh-config-file/) - understanding configuring your SSH useage.
 * [Modern Unix](https://github.com/ibraheemdev/modern-unix) - repo of unix programs that have been modernized
   * [Delta](https://github.com/dandavison/delta) - viewer for `git diff` output
