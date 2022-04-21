@@ -111,7 +111,8 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [VLC](https://www.videolan.org/vlc/index.html) - Cross platform multimedia player
 * [HTTPie](https://httpie.org/)
 * arp-scan - sends ARP packets to hosts on the local network and displays device details example command: `arp-scan -l`
-
+* [kompose](https://kompose.io/installation/) - Kompose is a conversion tool for Docker Compose
+ 
 ## RESOURCES
 
 * [Oh My Zsh](http://ohmyz.sh/)
