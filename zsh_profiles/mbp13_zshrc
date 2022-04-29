@@ -24,6 +24,7 @@ plugins=(z fzf-tab zsh-autosuggestions zsh-syntax-highlighting docker)
 
 #alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
 # alias go="go1.18beta1"
+alias brewup="brew update && brew upgrade && brew doctor && brew cleanup"
 alias vrc="vim ~/.zshrc"
 alias ftran="gfortran"
 alias diff="git diff"
