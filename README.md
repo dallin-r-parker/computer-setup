@@ -28,6 +28,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Discord](https://discordapp.com/) / [Slack](https://slack.com/) - Messaging application with dev-help channels
 * [PIA - private internet access CLI](https://www.privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface)
 * [Little Snitch - network monitoring](https://www.obdev.at/index.html)
+* [Clean Shot - screen shot tool](https://cleanshot.com/)
 
 # CLI APPS
 * [Github CLI](https://cli.github.com/manual/installation) - CLI for working with github
