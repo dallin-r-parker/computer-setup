@@ -31,6 +31,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Clean Shot - screen shot tool](https://cleanshot.com/)
 
 # CLI APPS
+
 * [Github CLI](https://cli.github.com/manual/installation) - CLI for working with github
   * [gh-prs](https://github.com/dlvhdr/gh-prs) - github cli extension for visualizing open PRs
   * [gh-notify](https://github.com/meiji163/gh-notify) - github cli extension for getting notifications
