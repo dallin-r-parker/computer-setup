@@ -14,10 +14,10 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 ## APPS
 
 * [Postman](https://www.getpostman.com/) - API development
-* [Mindnode](https://mindnode.com/) - Mind mapping application 
+* [Mindnode](https://mindnode.com/) - Mind mapping application
 * [YouTube CLI Player](https://github.com/mps-youtube/mps-youtube)
 * [Postico](https://eggerapps.at/postico/) - PostgreSQL GUI Client
-* [iStat](https://bjango.com/mac/istatmenus/) - Computer monitoring 
+* [iStat](https://bjango.com/mac/istatmenus/) - Computer monitoring
 * [Bartender 2](https://www.macbartender.com/) - Organize menu bar apps
 * [Alfred](https://www.alfredapp.com/) - App launching & custom workflow's
 * [Sketch](https://www.sketchapp.com/) - Design/Prototype/Wire frame projects
@@ -90,14 +90,14 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 
 * Node.js (node-js.slack.com) - Slack Channel
 * DevMountain (devmtn.slack.com) - Slack Channel
-* Postgres (postgresteam.slack.com) - Slack Channel 
+* Postgres (postgresteam.slack.com) - Slack Channel
 * reactiflux - Discord server for react development & questions
 * Frontend Developers (frontenddevelopers.slack.com) - Slack Channel
 
 ## MAINTENANCE
 
 * [Malwarebytes](https://www.malwarebytes.com/) - Free virus & malware computer scanner
-* [CleanMyMac 3](http://bit.ly/2xnlnEf) - Runs maintence scripts & uninstall / clean junk files 
+* [CleanMyMac 3](http://bit.ly/2xnlnEf) - Runs maintence scripts & uninstall / clean junk files
 
 ## OTHER
 
@@ -114,7 +114,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [HTTPie](https://httpie.org/)
 * arp-scan - sends ARP packets to hosts on the local network and displays device details example command: `arp-scan -l`
 * [kompose](https://kompose.io/installation/) - Kompose is a conversion tool for Docker Compose
- 
+
 ## RESOURCES
 
 * [Oh My Zsh](http://ohmyz.sh/)
@@ -124,7 +124,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [Vim-as-an-ide](https://github.com/jez/vim-as-an-ide) - [vim ide article](https://blog.jez.io/vim-as-an-ide/)
 * [Terminal Boosters](https://medium.com/productivity-freak/terminal-boosters-7c300e6406c8)
 * [Managing Multiple git accounts](https://youtu.be/lLgWWtOk7gk)
-* [Mac-setup](https://sourabhbajaj.com/mac-setup/) 
+* [Mac-setup](https://sourabhbajaj.com/mac-setup/)
 
 ## OPTIMIZE WEBSTORM PERFORMANCE
 
