@@ -63,6 +63,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [aircrack-ng](https://www.aircrack-ng.org/) - Aircrack-ng is a complete suite of tools to assess WiFi network security
 * [john](https://www.openwall.com/john/) - john the ripper password cracker
 * [hashcat](https://hashcat.net/hashcat/) - hashcat is the world's fastest password recovery tool
+* [fd](https://github.com/sharkdp/fd) - is a program to find entries in your filesystem, replaces the `find` command:
 
 ## FAV ZSH PLUGINS
 
