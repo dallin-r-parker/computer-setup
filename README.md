@@ -64,6 +64,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [john](https://www.openwall.com/john/) - john the ripper password cracker
 * [hashcat](https://hashcat.net/hashcat/) - hashcat is the world's fastest password recovery tool
 * [fd](https://github.com/sharkdp/fd) - is a program to find entries in your filesystem, replaces the `find` command:
+* [gping](https://formulae.brew.sh/formula/gping) - ping, but with graphs
 
 ## FAV ZSH PLUGINS
 
