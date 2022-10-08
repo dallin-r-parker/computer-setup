@@ -41,6 +41,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [FZF fuzzy finder](https://www.youtube.com/watch?v=1a5NiMhqAR0)
 * [Bat (replaces cat)](https://github.com/sharkdp/bat)
 * [scp CLI](https://stackabuse.com/using-scp-to-copy-and-securely-transfer-files-and-folders) - secure file transfer between computers
+* [air](https://github.com/cosmtrek/air) - Live reload for Go apps
   
 ## NODE PACKAGES
 
