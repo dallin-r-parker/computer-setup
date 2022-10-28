@@ -13,6 +13,7 @@ export EDITOR=vim
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 COMPLETION_WAITING_DOTS="true"
+# fzf-tab
 plugins=(z fzf-tab zsh-autosuggestions zsh-syntax-highlighting docker)
 
 #--------------------------------------------------------------------------------
@@ -101,16 +102,9 @@ export NVM_DIR="$HOME/.nvm"
 # To install useful key bindings and fuzzy completion: need to run only once when FZF is installed
 # $(brew --prefix)/opt/fzf/install
 
-###-tns-completion-start-###
-if [ -f /Users/adair/.tnsrc ]; then
-    source /Users/adair/.tnsrc
-fi
-###-tns-completion-end-###
-
-export FZF_DEFAULT_OPTS='--extended --preview "bat --style=numbers --color=always {} | head -200"'
+export FZF_DEFAULT_OPS='--extended --preview "bat --style=numbers --color=always {} | head -200"'
 export FZF_DEFAULT_COMMAND="fd --type f"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias l='exa -l --icons -a'
 alias ls='exa -l --icons'
@@ -129,3 +123,5 @@ if [ -f '/Users/adair/.gcloud/google-cloud-sdk/completion.zsh.inc' ]; then . '/U
 
 source $ZSH/oh-my-zsh.sh
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
