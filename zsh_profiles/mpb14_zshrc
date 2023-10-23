@@ -19,6 +19,8 @@ plugins=(z fzf-tab zsh-autosuggestions zsh-syntax-highlighting docker)
 #--------------------------------------------------------------------------------
 # ALIAS'S
 #--------------------------------------------------------------------------------
+alias piac="pia connect"
+alias piad="pia disconnect"
 alias download="youtube-dl"
 alias diff="git diff --name-only --diff-filter=d | xargs bat --diff"
 # alias go="go1.18beta1"
