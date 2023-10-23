@@ -54,6 +54,7 @@ I am using zsh as my shell, which has become the Mac OS default. First clone thi
 * [git-open](https://github.com/paulirish/git-open) - from cli type "git open" to open repo in default browser
 * [create-react-app](https://github.com/facebookincubator/create-react-app) - boilerplate for react application
 * [trash-cli](https://www.npmjs.com/package/trash-cli) - use instead of "rm || rm -r" will move thing to trash instead of permanently deleting
+* [NCU](npm install -g npm-check-updates) - npm check for updates
 
 ## BREW PACKAGES
 
